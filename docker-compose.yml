@@ -1,0 +1,12 @@
+services:
+  puppeteer:
+    image: ghcr.io/lovely-02/puppeteer:main
+    container_name: puppeteer
+    network_mode: host
+    privileged: true
+    restart: always
+    volumes:
+    # 挂载云崽路径
+      - /Users/hentai02/Desktop/Bot/Yunzai:/Users/hentai02/Desktop/Bot/Yunzai
+    environment:
+      - TZ=Asia/Shanghai

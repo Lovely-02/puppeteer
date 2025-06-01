@@ -1,0 +1,1 @@
+import('@karinjs/puppeteer')
