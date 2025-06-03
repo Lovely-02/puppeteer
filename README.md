@@ -53,7 +53,11 @@ git clone https://github.com/Lovely-02/puppeteer
 
 ### 2. 进入项目目录
 
-- 修改 `docker-compose.yml` 文件中的 `volumes` 为你的 `Yunzai` 地址
+```bash
+cd puppeteer
+```
+
+- 修改 `docker-compose.yml` 文件中的 `volumes` 为你的 `Yunzai` 地址 `！！！绝对路径`
 
 ### 3. 构建镜像
 
@@ -62,3 +66,13 @@ docker compose up -d
 ```
 
 </details>
+
+## 🚀 Yunzai 食用
+
+- 将 `render-base64.js` 文件放入 `Yunzai/plugins/example` 中
+
+## 致谢
+
+|                        Nickname                         | Contribution   |
+| :-----------------------------------------------------: | -------------- |
+| [Karin-Puppeteer](https://github.com/KarinJS/puppeteer) | Karin 的渲染器 |
